@@ -93,7 +93,7 @@
     }
 
     .courses-content-3 .courses-heading {
-        display: ;
+        
         flex-wrap: wrap;
     }
 
@@ -415,7 +415,7 @@
     }
 
     .header-bottom-area {
-        padding-top: 18px;
+        /* padding-top: 18px; */
     }
 
     .header-bottom-icon ul li a {
@@ -721,7 +721,7 @@
     }
 
     .author-comments-avatar img {
-        text-align: ;
+        
         padding-left: 40px;
         padding-bottom: 20px;
     }
@@ -1155,7 +1155,7 @@
     }
 
     .author-comments-avatar img {
-        text-align: ;
+        
         padding-left: 40px;
         padding-bottom: 20px;
     }
