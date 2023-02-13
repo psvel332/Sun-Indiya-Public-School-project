@@ -170,45 +170,45 @@
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
                     <div class="h-100 d-flex flex-column justify-content-center p-5">
                         <h1 class="mb-4">Application Form</h1>
-                        <form>
+                        <form action="admission.php" method="post">
                             <div class="row g-4">
                                
                                 <div class="col-sm-12 pb-3">
                                     <div class="form-floating">
-                                        <input type="text" class="form-control border-0" id="cname" placeholder="Child Name">
+                                        <input type="text" class="form-control border-0" name="name" id="cname" placeholder="Child Name" required>
                                         
                                     </div>
                                 </div>
                                 <div class="col-sm-12 pb-3">
                                     <div class="form-floating">
-                                        <input type="email" class="form-control border-0" id="gmail" placeholder="Gurdian Email">
+                                        <input type="email" class="form-control border-0" name="email" id="gmail" placeholder="Gurdian Email" required>
                                         
                                     </div>
                                 </div>
                                 
                                 <div class="col-sm-12 pb-3">
                                     <div class="form-floating">
-                                        <input type="text" class="form-control border-0" id="gname" placeholder="Gurdian Name">
+                                        <input type="text" class="form-control border-0" id="gname" placeholder="Gurdian Name" required>
                                         
                                     </div>
                                 </div>
                                 <div class="col-sm-6 pb-3">
                                     <div class="form-floating">
-                                        <input type="text" class="form-control border-0" id="cage" placeholder="Child Age">
+                                        <input type="text" class="form-control border-0" id="cage" placeholder="Child Age" required>
                                         
                                     </div>
                                 </div>
                                
                                 <div class="col-sm-6 pb-3">
                                     <div class="form-floating">
-                                        <input type="number" class="form-control border-0" id="cmobile" placeholder="Mobile Number">
+                                        <input type="number" class="form-control border-0" id="cmobile" placeholder="Mobile Number" required>
                                        
                                     </div>
                                 </div>
                                 <div class="col-sm-12 pb-3">
                                     <div class="form-floating">
                                        
-                                        <select id="education" name="carlist" class="form-control border-0" placeholder="Child Name">
+                                        <select id="education" name="carlist" class="form-control border-0" placeholder="Child Name" required>
                                             
                                           <option value="Standard ">please choose an option</option>
                                           <option value="Standard 1">1 Standard</option>
@@ -231,12 +231,12 @@
                                 
                                 <div class="col-12 pb-3">
                                     <div class="form-floating">
-                                        <textarea class="form-control border-0" placeholder="Leave a message here" id="message" style="height: 100px"></textarea>
+                                        <textarea class="form-control border-0" placeholder="Leave a message here" id="message" style="height: 100px" required></textarea>
                                         
                                     </div>
                                 </div>
                                 <div class="col-12">
-                                    <button class="btn btn-primary w-100 py-3" type="submit">Submit</button>
+                                    <button class="btn btn-primary w-100 py-3" type="submit" name="submit">Submit</button>
                                 </div>
                             </div>
                         </form>
