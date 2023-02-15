@@ -3391,6 +3391,8 @@ span.opening-date {
     position: relative;
     text-align: center;
     color: white;
+    padding-left: 0;
+    padding-right: 0;
   }
   .centered {
     position: absolute;
